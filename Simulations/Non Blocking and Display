@@ -1,0 +1,39 @@
+Without delay code:
+
+`timescale 1ns / 1ps
+
+module tb;
+
+reg[3:0] a = 4'h0;
+
+
+initial begin 
+a<=4'b1001;
+$display("Value of a :%0b",a);
+
+end
+
+
+    
+endmodule
+
+
+With delay code:
+
+`timescale 1ns / 1ps
+
+module tb;
+
+reg[3:0] a = 4'h0;
+
+
+initial begin 
+a<=4'b1001;
+#10;
+$display("Value of a :%0b",a);
+
+end
+
+
+    
+endmodule
