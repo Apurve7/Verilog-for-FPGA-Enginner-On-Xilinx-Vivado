@@ -1,7 +1,7 @@
 
 # Verilog for an FPGA Engineer with Xilinx Vivado Design Suite
 
-This repository contains my assignment solutions and notes from the **Verilog for an FPGA Engineer with Xilinx Vivado Design Suite** course.  
+This repository contains my assignment solutions and notes from the **Verilog for an FPGA Engineer with Xilinx Vivado Design Suite** course by Kumar Khandagle on Udemy
 It focuses on learning **Verilog HDL** for digital design and its implementation using **Xilinx Vivado** tools.
 
 Verilog is a hardware description language used to model and design digital circuits at various levels of abstraction, from gate-level to system-level.  
