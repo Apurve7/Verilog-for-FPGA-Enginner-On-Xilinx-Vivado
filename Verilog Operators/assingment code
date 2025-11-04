@@ -1,0 +1,15 @@
+`timescale 1ns / 1ps
+
+
+module tb1();
+
+reg [3:0] a = 4'd12;
+reg[8:0] b = 9'o345;
+reg[2:0]c = 3'b100;
+
+initial begin
+
+$display("a : %d and b : %o and c : %b" , a, b,c);
+
+end
+endmodule
